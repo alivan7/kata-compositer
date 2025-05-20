@@ -1,15 +1,15 @@
-# 🧩 Katas del Patrón Compuesto
+#  Katas del Patrón Compuesto
 
 Este repositorio contiene ejercicios (katas) prácticos para aprender y aplicar el **Patrón de Diseño Compuesto (Composite Pattern)**. Este patrón permite tratar objetos individuales y composiciones de objetos de manera uniforme.
 
 ---
 
-## 📁 Kata 1: Sistema de Archivos Básico
+## Kata 1: Sistema de Archivos Básico
 
-### 🧠 Problema
+###  Problema
 Crear un sistema de archivos donde tanto archivos como carpetas puedan ser tratados de forma uniforme. Cada archivo tiene un tamaño, y cada carpeta puede contener archivos y otras carpetas. El objetivo es calcular el tamaño total de una carpeta, incluyendo sus archivos y subcarpetas.
 
-### 🛠️ Instrucciones
+###  Instrucciones
 - Crear una interfaz `FileSystemComponent` con los métodos:
     - `getSize()`
     - `showDetails()`
@@ -17,7 +17,7 @@ Crear un sistema de archivos donde tanto archivos como carpetas puedan ser trata
 - Implementar la clase `Folder` que representa una carpeta y puede contener múltiples `FileSystemComponent` (archivos o carpetas).
 - Crear una estructura de carpetas desde el cliente y calcular el tamaño total.
 
-### ✅ Salida Esperada
+###  Salida Esperada
 ```
 Archivo: file1.txt, Tamaño: 10KB
 Archivo: file2.txt, Tamaño: 20KB
@@ -25,9 +25,9 @@ Carpeta: folder1, Tamaño Total: 30KB
 ```
 ---
 
-## 🍽️ Kata 2: Menú de Restaurante
+##  Kata 2: Menú de Restaurante
 
-### 🧠 Problema
+###  Problema
 Crear un sistema para representar un menú de restaurante donde se puedan incluir elementos individuales y submenús. Cada elemento tiene un nombre y un precio.
 
 ### 🛠️ Instrucciones
@@ -38,7 +38,7 @@ Crear un sistema para representar un menú de restaurante donde se puedan inclui
 - Implementar la clase `Menu` que representa un menú que contiene otros `MenuComponent`.
 - Desde el cliente, construir un menú con submenús y calcular el precio total.
 
-### ✅ Salida Esperada
+###  Salida Esperada
 ```
 Elemento: Pizza, Precio: 10
 Elemento: Ensalada, Precio: 5
